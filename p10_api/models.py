@@ -6,6 +6,7 @@ class P10Status(models.Model):
     device_message = models.CharField(max_length=200)
     device_brightness=models.IntegerField()
     device_scrolling_speed=models.IntegerField()
+    device_scrolling_speed1=models.IntegerField()
 
     def __str__(self):
         return self.device_name
